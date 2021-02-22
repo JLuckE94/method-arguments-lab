@@ -1,10 +1,9 @@
 # lib/introduction.rb
 
-def introduction(name)
+def introduction(Josh)
     puts "Hi, my name is #{name}."
 end
  
-def introduction_with_language(name, language)
+def introduction_with_language(Josh, Ruby)
     puts"Hi, my name is #{name} and I am learning to program in #{language}"
 end
-introduction_with_language("Josh, Ember.Js.")
